@@ -1,0 +1,28 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+    </head>
+    <body>       
+        <div class="container">
+            <div class="sub-container">
+                <h3>HOME</h3>
+                <div class="home"> <p id="hm-scr">0</p> </div>
+                <button class="btn" id="add1-hm" onclick="home1()">+1</button>
+                <button class="btn" id="add2-hm" onclick="home2()">+2</button>
+                <button class="btn" id="add3-hm" onclick="home3()">+3</button>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <div class="guest"> <p id="gst-scr">0</p> </div>
+                <button class="btn" id="add1-gst" onclick="guest1()">+1</button>
+                <button class="btn" id="add2-gst" onclick="guest2()">+2</button>
+                <button class="btn" id="add3-gst" onclick="guest3()">+3</button>
+            </div>
+        </div>
+        <button class="btn" id="rst" onclick="reset()">NEW GAME</button>
+        <script src="index.js"></script>
+    </body>
+</html>
